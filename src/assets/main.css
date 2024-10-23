@@ -10,6 +10,30 @@
 .main-information {
   padding-top: 50px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   font-size: 30px;
+}
+
+.functionality {
+  padding-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.custom-button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  color: #7e7e7e;
+}
+
+.custom-button:active {
+  color: #5af13c;
 }

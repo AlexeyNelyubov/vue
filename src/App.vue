@@ -5,7 +5,8 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <nav class="header">
     <RouterLink to="/pinia" class="link">Pinia</RouterLink>
-    <RouterLink to="/composible" class="link">Composible</RouterLink>
+    <RouterLink to="/reactive" class="link">Reactive</RouterLink>
+    <RouterLink to="/composible" class="link">Composable</RouterLink>
   </nav>
   <RouterView />
 </template>

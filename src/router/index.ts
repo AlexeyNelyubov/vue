@@ -15,6 +15,11 @@ const router = createRouter({
       component: () => import('../views/PiniaView.vue')
     },
     {
+      path: '/reactive',
+      name: 'reactive',
+      component: () => import('../views/ReactiveView.vue')
+    },
+    {
       path: '/composible',
       name: 'composible',
       component: () => import('../views/ComposibleView.vue')
